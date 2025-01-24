@@ -156,9 +156,9 @@ export function Home() {
             Complete este formulario y nos comunicaremos con usted en 24 horas.
           </PageTitle>
           <form className="mx-auto w-full mt-12 lg:w-5/12">
-            <div className="mb-8 flex gap-8">
-              <Input variant="outlined" size="lg" label="Nombre completo" />
-              <Input variant="outlined" size="lg" label="Dirección de correo electrónico" />
+            <div className="mb-8 flex flex-col gap-8 sm:flex-row">
+              <Input variant="outlined" size="lg" label="Nombre completo" className="w-full" />
+              <Input variant="outlined" size="lg" label="Dirección de correo electrónico" className="w-full" />
             </div>
             <Textarea variant="outlined" size="lg" label="Mensaje" rows={8} />
             <Checkbox
