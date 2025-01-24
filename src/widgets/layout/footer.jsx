@@ -47,9 +47,8 @@ export function Footer({ title, description, socials, menus, copyright }) {
                     <li key={item.name}>
                       <Typography
                         as="a"
-                        href={item.path}
-                        target="_blank"
-                        rel="noreferrer"
+                        onClick={(e) => e.preventDefault()}
+                        style={{ cursor: 'pointer' }}
                         variant="small"
                         className="mb-2 block font-normal text-blue-gray-500 hover:text-blue-gray-700"
                       >
