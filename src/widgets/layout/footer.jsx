@@ -97,15 +97,15 @@ Footer.defaultProps = {
     {
       name: "Enlaces útiles",
       items: [
-        { name: "Inicio", path: "/" },
-        { name: "Nosotros", path: "/about" },
+        { name: "Inicio", path: "#" },
+        { name: "Nosotros", path: "#" },
       ],
     },
     {
       name: "Soporte",
       items: [
-        { name: "FAQs", path: "/faq" },
-        { name: "Contáctanos", path: "/contact" },
+        { name: "FAQs", path: "#" },
+        { name: "Contáctanos", path: "#" },
       ],
     },
   ],
